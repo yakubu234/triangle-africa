@@ -1,0 +1,246 @@
+/*
+  Project: Triangle Africa Landing Page
+  Author: Trap Introvert
+  github: https://github.com/Trapintrovert
+
+ */
+
+ /* HOME PAGE STYLE */
+
+ @media (max-width:360px) {
+
+   #partner .partner-img{
+     padding-left: 33px !important;
+   }
+   #perks {
+     position: relative;
+     padding-top: 170% !important;
+   }
+   #value .image{
+     padding-left: 8rem !important;
+   }
+
+ }
+
+@media (max-width:320px) {
+
+  #partner .partner-img{
+    padding-left: 10px !important;
+  }
+  #value .image{
+    padding-left: 6rem !important;
+  }
+}
+
+@media (max-width:575px) {
+  #header{
+    height: 600px !important;
+  }
+
+  #header img{
+    display: none;
+  }
+  .pad{
+    padding-top: 80px !important;
+  }
+  #header .btn{
+    width: 100%;
+    background: #492F86;
+    border-radius: 10px;
+  }
+
+  #partner .partner-img{
+    padding-left: 60px;
+  }
+  #partner .partner-img-2{
+    display: none;
+  }
+  #value .image{
+    padding-left: 38% !important;
+  }
+  #perks {
+    position: relative;
+    padding-top: 110%;
+  }
+
+  #perks p{
+      text-align: justify;
+  }
+  #perks h5{
+    text-align: center;
+  }
+
+  #involve {
+    display: none;
+  }
+
+  #newsletter .btn{
+    margin-left: 7rem !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #footer .footer-img{
+    margin-left: 22%;
+  }
+
+}
+
+/* Medium devices (tablets) */
+@media (min-width:768px) {
+
+  #header img{
+    width: 352px;
+    padding-top: 165px;
+  }
+  #header .btn{
+    width: 100%;
+    background: #492F86;
+    border-radius: 10px;
+  }
+
+  #header p:last-child{
+    width: 331px;
+  }
+
+  #partner img{
+    width: 168px;
+  }
+  #value .image{
+    padding-left: 4rem !important;
+  }
+  #perks {
+    position: relative;
+    padding-top: 50%;
+  }
+  #newsletter{
+    height: 150px !important;
+  }
+  #footer .footer-img{
+    margin-left: 36%;
+  }
+
+}
+
+
+/* Large devices (desktops) */
+@media (min-width:992px) {
+  #header .btn{
+    width: 72% !important;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width:1000px) {
+  #partner img{
+    width: 220px;
+  }
+  #value .image{
+    padding-left: 6rem !important;
+  }
+
+  #perks {
+    position: relative;
+    padding-top: 33%;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width:1200px) {
+
+  #header img{
+    width: 505px;
+    padding-top: 20px !important;
+  }
+  #header .form-control{
+    width: 72% !important;
+    border-radius: 10px;
+  }
+  #header p:last-child{
+    width: 445px;
+  }
+  #partner img{
+    width: 256px;
+  }
+  #value .image{
+    padding-left: 8rem !important;
+  }
+  #perks {
+    position: relative;
+    padding-top: 23%;
+  }
+  #newsletter{
+    height: 125px;
+  }
+  #footer .footer-img{
+    margin-left: 41%;
+  }
+
+}
+
+@font-face {
+  font-family: "HKGrotesk-Bold";
+  src:url("fonts/HKGrotesk-Bold.otf");
+}
+
+body{
+  background: #FBFBFB;
+}
+
+#header{
+  height: 700px;
+}
+
+.pad{
+  padding-top: 150px;
+}
+
+#header h3{
+  font-family: HKGrotesk-Bold;
+  font-size: 44px;
+  color: #16161D;
+}
+
+#value{
+  background-color: #492F86;
+}
+.quote-content{
+  position: absolute;
+  margin-top: -7px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 93%;
+}
+
+.quote-content img{
+  padding-left: 46% !important;
+  padding-top: 40px;
+}
+
+.quote-content p{
+  font-family: HKGrotesk-Bold;
+}
+
+#blog .btn{
+  background-color: #492F86;
+  border-radius: 5px;
+  border-color: #492F86;
+  color: #fff;
+}
+#blog a{
+  color: #492F86;
+}
+
+#newsletter{
+  background:  #EEEEEE;
+}
+#newsletter .btn{
+  background-color: #492F86;
+  border-radius: 5px;
+  border-color: #492F86;
+  color: #fff;
+}
+
+#footer .fa{
+  color: #492F86;
+  font-size: 24px;
+}
